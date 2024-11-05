@@ -9,14 +9,14 @@ const resetButton = document.querySelector(".reset");
 const freeShippingNotice = document.createElement("span");
 freeShippingNotice.textContent = "You have free shipping";
 freeShippingNotice.style.color = "green";
-freeShippingNotice.style.fontSize = "16px";
+freeShippingNotice.style.fontSize = "18px";
 freeShippingNotice.style.display = "none";
 document.querySelector(".counter-container").appendChild(freeShippingNotice);
 
 const outOfStockNotice = document.createElement("span");
 outOfStockNotice.textContent = "Out of stock";
 outOfStockNotice.style.color = "red";
-outOfStockNotice.style.fontSize = "16px";
+outOfStockNotice.style.fontSize = "18px";
 outOfStockNotice.style.display = "none";
 document.querySelector(".counter-container").appendChild(outOfStockNotice);
 
